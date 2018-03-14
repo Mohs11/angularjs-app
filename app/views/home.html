@@ -1,0 +1,170 @@
+<div ng-controller="footballController">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 hero">
+            <h1>Football Teams</h1>
+              <p>
+                A collection of football teams in Eroupe
+              </p>
+              <p>
+                Have a browse, search for anything or filter by league
+              </p>
+          </div>
+          <div class="col-md-12">
+            <div class="button">
+                <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Championship')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Championship
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Premier League')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Premier League
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('League One')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   League One
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('League Two')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   League Two
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('National League')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   National League
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('National League North')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   National League North
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('National League South')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   National League South
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Northern Premier League')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Northern Premier League
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Womens Super League One')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Womens Super League One
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Womens Super League Two')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Womens Super League Two
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Serie A')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Serie A
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Bundesliga')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Bundesliga
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('La Liga')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   La Liga
+                 </span>
+             </label>
+           </div>
+           <div class="button">
+             <label>
+               <input class="checkbox" type="checkbox" ng-click="includeLeague('Ligue 1')">
+                 <span>
+                     <i class="fa fa-filter" aria-hidden="true"></i>
+                   Ligue 1
+                 </span>
+             </label>
+           </div>
+          </div>
+          <div class="col-md-12">
+              <p class="searchcon">
+                <input autofocus="autofocus" class="search" type="text" ng-model="search" placeholder="Search for anything">
+              </p>
+          </div>
+        </div>
+      <div id="clubs-list" class="row">
+        <div ng-repeat="club in clubs | orderBy: 'name' | filter:leagueFilter | filter: search" class="col-lg-4 panel">
+              <img ng-src="{{club.logo}}" class="clublogo">
+            <h1>{{club.name}}</h1>
+            <p>
+              <i style="color: var(--{{club.color}})" class="fa fa-home icon" aria-hidden="true"></i>
+              Ground: <span class="element">{{club.ground}}</span>
+            </p>
+            <p>
+              <i class="fa fa-map-marker icon location-icon" style="color: var(--{{club.color}})" aria-hidden="true"></i>
+              Location: <span class="element">{{club.location}}</span>
+            </p>
+            <p>
+              <i style="color: var(--{{club.color}})" class="fa fa-user icon staduim-icon" aria-hidden="true"></i>
+              Staduim Capacity: <span class="element">{{club.capacity | number : fractionSize}}</span><small> humans</small>
+            </p>
+            <p>
+              <i style="color: var(--{{club.color}})" class="fa fa-trophy icon" aria-hidden="true"></i>
+              League: <span style="color: var(--{{club.color}})" class="element-league">{{club.league}}</span>
+            </p>
+        </div>
+      </div>
+     </div>
+   </div>

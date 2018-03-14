@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="football">
+  <head>
+      <base href="/" />
+    <title>Football Teams</title>
+
+      <!--Meta-->   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Football, Clubs, Data, Mohsin Hanid, Angularjs">
+        <meta name="author" content="Mohsin Hanid">
+        <meta name="description" content="Clubs in Eroupe">
+        
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="app/content/img/favicon.png"/>
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+
+    <!--Angular JS 1.6.5-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+
+    <!--Angular Route-->
+    <script type="text/javascript" src="lib/angular-route.min.js"></script>
+
+    <!--Angular Animate-->
+    <script type="text/javascript" src="lib/angular-animate.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:100,300,400,700" rel="stylesheet">
+    
+    <!--Cutom CSS-->
+    <link rel="stylesheet" type="text/css" href="content\css\style.css">
+    <link rel="stylesheet" type="text/css" href="content\css\animations.css">
+
+    <!--Cutstom JS-->
+    <script src="scripts/app.js"></script>
+
+  </head>
+  <body>
+
+  <div class="appbackground">
+    <header ng-include="'header.html'"></header>
+
+    <main ng-view></main>
+    
+
+    
+  <!-- Font Awesome-->
+  <script src="https://use.fontawesome.com/cdcb512957.js"></script>
+
+ </body>
+</html>
+

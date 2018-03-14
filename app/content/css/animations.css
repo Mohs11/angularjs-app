@@ -1,0 +1,343 @@
+.animated-1{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+animation-delay: 0s;  
+}
+
+.animated{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+animation-delay: 0.3s;  
+}
+
+.animated2{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:0.8s;   
+}
+
+.animated3{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1s;   
+}
+
+.animated4{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1.3s;   
+}
+
+.animated5{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1.6s;   
+}
+
+.animated6{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:5s;
+-moz-animation-delay:5s;
+-ms-animation-delay:5s;
+-o-animation-delay:5s;
+animation-delay:5s;   
+}
+
+.animated7{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+-webkit-animation-delay:10s;
+-moz-animation-delay:10s;
+-ms-animation-delay:10s;
+-o-animation-delay:10s;
+animation-delay:10s;   
+}
+
+@-webkit-keyframes fadeup {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+}
+
+@-moz-keyframes fadeup {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+}
+
+@-o-keyframes fadeup {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+}
+
+@keyframes fadeup {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+.fadeup {
+	-webkit-animation-name: fadeup;
+	-moz-animation-name: fadeup;
+	-o-animation-name: fadeup;
+	animation-name: fadeup;
+}
+
+
+.fadeaway{
+	-webkit-animation-name: fadeaway;
+	-moz-animation-name: fadeaway;
+	-o-animation-name: fadeaway;
+	animation-name: fadeaway;
+}
+
+
+.animatedaway{
+    
+-webkit-animation-fill-mode:backwards;
+-moz-animation-fill-mode:backwards;
+-ms-animation-fill-mode:backwards;
+-o-animation-fill-mode:backwards;
+animation-fill-mode:backwards;
+-webkit-animation-duration:5s;
+-moz-animation-duration:5s;
+-ms-animation-duration:5s;
+-o-animation-duration:5s;
+animation-duration:5s;
+-webkit-animation-delay:5s;
+-moz-animation-delay:5s;
+-ms-animation-delay:5s;
+-o-animation-delay:5s;
+animation-delay:5s;   
+
+}
+
+@-webkit-keyframes fadeup {
+	0% {
+		opacity: 1;
+	}	100% {
+		opacity: 0;
+	}
+
+}
+
+@keyframes fontbulger {
+  0% {
+    font-size: 45pt;
+  }
+  100% {
+    font-size: 15pt;
+  }
+}
+
+.growandshrink {
+   animation: fontbulger 5s;
+}
+
+.heartbeat {
+	animation: heartbeat 1s infinite;
+	width: 100pt;
+	height: auto;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .98 );
+  }
+  50%
+  {
+    transform: scale( 1 );
+  }
+  100%
+  {
+    transform: scale( .98 );
+  }
+}
+
+@keyframes FadeIn { 
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+}
+
+.rolecollect div {
+	animation: FadeIn 1s linear;
+  	animation-fill-mode: both;
+}
+
+.rolecollect div:nth-child(1) { animation-delay: 1.3s}
+.rolecollect div:nth-child(2) { animation-delay: 2.6s}
+.rolecollect div:nth-child(3) { animation-delay: 2.9s}
+.rolecollect div:nth-child(4) { animation-delay: 3.2s}
+.rolecollect div:nth-child(5) { animation-delay: 3.5s}
+.rolecollect div:nth-child(6) { animation-delay: 3.8s}
+.rolecollect div:nth-child(7) { animation-delay: 4.1s}
+.rolecollect div:nth-child(8) { animation-delay: 4.4s}
+.rolecollect div:nth-child(9) { animation-delay: 4.7s}
+.rolecollect div:nth-child(10) { animation-delay: 5s}
+.rolecollect div:nth-child(11) { animation-delay: 5.3s}
+.rolecollect div:nth-child(12) { animation-delay: 5.6s}
+.rolecollect div:nth-child(13) { animation-delay: 5.9s}
+.rolecollect div:nth-child(14) { animation-delay: 6.2s}
+.rolecollect div:nth-child(15) { animation-delay: 6.5s}
+.rolecollect div:nth-child(16) { animation-delay: 6.7s}
+.rolecollect div:nth-child(17) { animation-delay: 6.9s}
+.rolecollect div:nth-child(18) { animation-delay: 7.1s}
+.rolecollect div:nth-child(19) { animation-delay: 7.3s}
+.rolecollect div:nth-child(20) { animation-delay: 7.5s}
+.rolecollect div:nth-child(21) { animation-delay: 7.7s}
+
+.animatedworkingbim div {
+	animation: FadeIn 1s linear;
+  	animation-fill-mode: both;
+}
+
+.animatedworkingbim div:nth-child(1) { animation-delay: 0.3s}
+.animatedworkingbim div:nth-child(2) { animation-delay: 1.6s}
+.animatedworkingbim div:nth-child(3) { animation-delay: 1.9s}
+.animatedworkingbim div:nth-child(4) { animation-delay: 2.2s}
+.animatedworkingbim div:nth-child(5) { animation-delay: 2.5s}
+.animatedworkingbim div:nth-child(6) { animation-delay: 2.8s}
+.animatedworkingbim div:nth-child(7) { animation-delay: 3.1s}
+.animatedworkingbim div:nth-child(8) { animation-delay: 3.4s}
+.animatedworkingbim div:nth-child(9) { animation-delay: 3.7s}
+.animatedworkingbim div:nth-child(10) { animation-delay: 4s}
+.animatedworkingbim div:nth-child(11) { animation-delay: 4.3s}
+.animatedworkingbim div:nth-child(12) { animation-delay: 4.6s}
+.animatedworkingbim div:nth-child(13) { animation-delay: 4.9s}
+.animatedworkingbim div:nth-child(14) { animation-delay: 5.2s}
+.animatedworkingbim div:nth-child(15) { animation-delay: 5.5s}
+.animatedworkingbim div:nth-child(16) { animation-delay: 5.7s}
+.animatedworkingbim div:nth-child(17) { animation-delay: 5.9s}
+.animatedworkingbim div:nth-child(18) { animation-delay: 6.1s}
+.animatedworkingbim div:nth-child(19) { animation-delay: 6.3s}
+.animatedworkingbim div:nth-child(20) { animation-delay: 6.5s}
+.animatedworkingbim div:nth-child(21) { animation-delay: 6.7s}
+
+

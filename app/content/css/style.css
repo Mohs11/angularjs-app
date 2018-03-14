@@ -1,0 +1,411 @@
+:root {
+	--Championship: #44A7C7;
+	--Premier-League: #7D55A5;
+	--League-One: red;
+	--League-Two: #107cdf;
+	--National-League: orange;
+	--National-League-North: green;
+	--National-League-South: #ebb3f2;
+	--Northern-Premier-League: white;
+	--Womens-Super-League-One: purple;
+	--Womens-Super-League-Two: yellow;
+	--Serie-A: #9b2d22;
+	--Bundesliga: #5962a0;
+	--La-Liga: #e0c653;
+	--mainpink: #af4b60;
+	--mainblue: #353554;
+}	
+
+html {
+	font-family: 'Encode Sans', sans-serif;
+	background: var(--mainpink);
+}
+
+body {
+	background: var(--mainpink);
+}
+
+.unlink, .unlink:hover, .unlink:active, .unlink:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.appbackground {
+	background: var(--mainpink);
+	height: 100%;
+	width: 100%;
+}
+
+.overlay {
+  display: none;
+  position: fixed; /* Sit on top of the page content */   
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white; /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+      
+}
+
+.intro {
+	text-align:center;
+}
+
+.intrologo {
+	width: 50px;
+	height: auto;
+	margin-top: 10%;
+}
+
+.intro h1{
+	font-size: 42pt;
+	font-weight: 700;		
+}
+
+.introtag {
+	font-size: 32pt;
+	font-weight: 300;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+/* nav */
+nav {
+	width: 100%;
+	height: 50px;
+	background: #111;
+	box-shadow: 0 0 15px black;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.brand{
+	font-weight: 100 !important;
+	color: white;
+	padding-top: 10px;	
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.brand:hover {
+	color: var(--mainpink);
+}
+
+.navlist li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 25px;
+	color: white;
+	transition: 0.5s;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.navlist li:hover {
+	color: var(--mainpink);
+	cursor: pointer;
+}
+
+.navlist li a {
+	cursor: pointer;
+}
+
+
+/*nav*/
+
+.hero {
+	
+}
+
+.hero h1 {
+	text-align: center;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	color: white;
+}
+
+.hero p {
+	text-align: center;
+	font-weight: 300;
+	font-size: 16pt;
+	color: white;
+}
+
+
+.panel {
+  border: 5px solid var(--mainpink);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  background: var(--mainblue);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.panel:hover {
+	background: #222;
+	cursor: pointer;
+
+
+}
+.clublist {
+	padding: 0px;
+	margin: 0px;
+    list-style-type: none; 
+}
+
+.panel h1{
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	font-size: 15pt;
+	color: white;
+	font-weight: 300;
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 2px 2px 2px 2px;
+	border-bottom: 1px solid #888;	
+}
+
+.panel p{
+	font-weight: 400;
+	font-size: 12pt;
+	color: #ddd;
+	margin-bottom: 8px;
+}
+
+
+.element {
+	color: #efefef;
+	font-weight: 700;
+}
+
+.element-league {
+	font-weight: 400;
+	background: black;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+}
+
+.clublogo {
+	width: auto;
+	height: 65px;
+	float: right;
+	background: white;
+	margin-top: 5px;
+	border: 10px solid transparent;
+}
+
+.searchcon {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.search {
+	border-radius: 5px;
+	border: 3px solid #333;
+	color: white;
+	width: 100%;
+	height: 50px;
+	font-weight: 300;
+	font-size: 24pt;
+	text-indent:5px;
+	background: #000;
+	transition: 0.5s;
+	box-shadow: 0 0 5px black;
+}
+
+.search:hover {
+	border: 3px solid lightgrey;
+	background: #111;	
+}
+
+::placeholder {
+	color: #efefef;
+	font-weight: 300;
+	transition: 3s;
+}
+
+.search:focus {
+	outline: none !important;
+	border-radius: 5px;
+	border: 3px solid #000;
+	background: #000;
+	transition: 2s;
+}
+
+.search:focus::placeholder {
+	color: transparent;
+}
+
+.icon {
+	text-shadow: 0 0 2px black;
+	font-size: 14pt !important;
+
+}
+
+.staduim-icon {
+	margin-right: 2px;
+}
+
+.location-icon {
+	margin-right: 3px;
+	margin-left: 2px;
+}
+
+
+small {
+	font-size: 7pt;
+}
+
+/*Animate*/
+  .animate {
+      -moz-animation-name: fadeIn;
+      -webkit-animation-name: fadeIn;
+      -ms-animation-name: fadeIn;
+      animation-name: fadeIn;
+      animation-delay: 3s;
+      -moz-animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      -ms-animation-duration: 1s;
+      animation-duration: 1s;
+      -moz-animation-timing-function: ease-in-out;
+      -webkit-animation-timing-function: ease-in-out;
+      -ms-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -moz-animation-fill-mode: forwards;
+      -webkit-animation-fill-mode: forwards;
+      -ms-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;  
+    }
+
+    .animate.fadeOut {
+      -moz-animation-name: fadeOut;
+      -webkit-animation-name: fadeOut;
+      -ms-animation-name: fadeOut;
+      animation-name: fadeOut;
+    }
+
+    @-moz-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 1; visibility: visible; }}
+    @-webkit-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 1; visibility: visible; }}
+    @-ms-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 1; visibility: visible; }}
+    @-keyframes fadeIn { 0% { opacity: 0; visibility: hidden; } 100% { opacity: 1; visibility: visible; }}
+
+    @-moz-keyframes fadeOut { 0% { opacity: 1; visibility: visible; }  100% { opacity: 0; visibility: hidden; }} 
+    @-webkit-keyframes fadeOut { 0% { opacity: 1; visibility: visible; }  100% { opacity: 0; visibility: hidden; }} 
+    @-ms-keyframes fadeOut { 0% { opacity: 1; visibility: visible; } 100% { opacity: 0; visibility: hidden; }} 
+    @-keyframes fadeOut { 0% { opacity: 1; visibility: visible; } 100% { opacity: 0; visibility: hidden;  }} 
+
+/*About */
+.aboutcon {		
+}
+
+.about {
+	box-shadow: 0 0 10px black;
+	background: var(--mainblue);
+	margin-top: 25%;
+	margin-bottom: 20%;
+	border-radius: 5px;	
+	padding-bottom: 10px;	
+}
+
+.about h1 {
+	color: white;
+	font-weight: 100;
+	font-size: 42pt;
+	text-align: center;
+}
+
+.about p {
+	color: white;
+	font-weight: 100;
+
+}
+.aboutlink {
+	color: var(--mainpink) !important;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 400 !important;	
+	text-decoration-color: var(--mainblue);
+	transition: 0.5s;
+
+}
+
+.aboutlink:hover {
+	text-decoration-color: var(--mainpink);
+	text-decoration: underline;
+
+}
+
+.checkbox {
+	display: none;
+}
+
+.button label {
+	font-weight: 400;
+	line-height: 20px;
+	cursor: pointer;
+  border-radius:5px;
+  transition: 0.5s;
+  float: left;
+  margin: 5px 5px 5px 5px;
+  font-size: 10pt;
+}
+
+
+.button label span {
+  text-align:center;
+  display:block;
+	cursor: pointer;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	background-color: #efefef;
+	color: #b0b0b0;
+	transition: 0.2s;
+}
+
+.button label:hover {
+	box-shadow: 1px 1px 10px black;
+}
+
+.button label span:hover {
+	background: #fefefe;
+	color: green;
+}
+
+.button input:checked + span{   
+   background-color: green;
+   color: white;
+   padding: 5px 10px 5px 10px;
+   border-radius: 5px;
+}
+
+/*MQ*/
+@media (max-width: 1000px) {
+
+	.element-league {
+		font-size: 10pt
+	}
+	.element {
+		font-size: 10pt
+	}
+}
+
+
+/* Animations */
+main.ng-enter {
+	transition: 0.5s linear all;
+	opacity: 0;
+}
+
+main.ng-enter.ng-enter-active {
+	opacity: 1;
+}
